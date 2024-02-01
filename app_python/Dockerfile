@@ -1,5 +1,5 @@
 # use base image with specific versions
-FROM python:3.12.0b1-slim
+FROM python:3.13.0a3-slim
 
 # Create a low privileged user
 RUN useradd -m myuser
